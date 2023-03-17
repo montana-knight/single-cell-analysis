@@ -3,6 +3,8 @@
 export(add_mt)
 export(add_multiple_mt)
 export(features_counts_mitoperc_dotplot)
+export(normalize_sc)
+export(normalize_seurat_list)
 export(onesample_singlecell_QC_filtering)
 export(qc_filtering)
 export(readin_multiple_h5files)

@@ -262,4 +262,4 @@ sctype_annotation <- function(seuratobject, exhaustion_set, reduction_type){
 sctype_list_annotation <- function(seuratlist, exhaustion_set, reduction_type){
   new_seurat_list <- lapply(seuratlist, sctype_annotation, exhaustion_set, reduction_type)
   return(new_seurat_list)
-  }
+}
